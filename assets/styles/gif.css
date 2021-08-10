@@ -1,0 +1,15 @@
+  body {
+
+      margin: 2%;
+      border-radius: 10%;
+      background-image: url(https://kartinkin.com/uploads/posts/2020-09/1600217561_5-p-effektnii-fon-15.jpg);
+  }
+
+  h1,
+  div,
+  img,
+  h2 {
+      margin: 2%;
+      border-radius: 10%;
+      color: rgb(142, 238, 255);
+  }

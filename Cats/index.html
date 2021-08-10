@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для котиков</title>
+    <link rel="shortcut icon"
+        href="https://www.flaticon.com/svg/vstatic/svg/616/616430.svg?token=exp=1611653576~hmac=1aabbabd3bc8928fe388dc539668ec55">
+    <link rel="stylesheet" href="/assets/styles/index.css">
+
+</head>
+
+<body class="body">
+    <div class="main">
+        <form class="form" id="form">
+            <h1>Опрос</h1>
+            <div class="name">
+                <div>
+                    <label for="name" class="label"> * </label>
+                    <input type="text" id="name" placeholder="Кличка кота" required>
+                </div>
+                <div>
+                    <br> <label for="humanName" class="label"> * </label>
+                    <input type="text" id="humanName" placeholder="Имя владельца" required>
+                </div>
+                <div>
+                    <br> <label for="humanPhone" class="label"> *</label>
+                    <input type="tel" name="humanPhone" placeholder="Телефон владельца" required>
+                </div>
+                <div>
+                    <br> <label for="humanMail" class="label"> * </label>
+                    <input type="email" name="email" placeholder="E-Mail владельца" required>
+                </div>
+                <div>
+                    <p class="incline"> Поля отмеченые * обязательны <br> к заполнению </p>
+                </div>
+            </div>
+            <div>
+                <p>Порода кота</p>
+                <select>
+                    <option value=".">---</option>
+                    <option value="Мейн Кун">Мейн Кун</option>
+                    <option value="манчкин">Манчкин</option>
+                    <option value="абиссинская">Абиссинская</option>
+                    <option value="метис">Метис</option>
+                    <option value="невская маскарадная">Невская маскарадная</option>
+                    <option value="сфинкс">Сфинкс</option>
+                    <option value="шотландская вислоухая">Шотландская вислоухая</option>
+                </select>
+            </div>
+            <div class="feed">
+                <p>Чем питается:</p>
+                <label for="dry"> Сухой корм </label>
+                <input type="checkbox" id="dry">
+                <br> <label for="wet"> Влажный корм </label>
+                <input type="checkbox" id="wet">
+                <br> <label for="natural">Натуральный корм </label>
+                <input type="checkbox" id="natural">
+            </div>
+            <div class="sex_cat">
+                <br>
+                <label for="sex2" class="sex"> Пол кота </label><br>
+                <br> <input type="radio" name="sex2" id="sex2" /> Самка <br>
+                <input type="radio" name="sex2" /> Самец
+            </div>
+
+            <div>
+                <p>Коментарий владельца</p>
+                <textarea rows="15"></textarea>
+                <br>
+                <input type="file"><br>
+            </div>
+            <div class="button">
+                <button class="btn" type="submit" id="postButton">Сохранить</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
